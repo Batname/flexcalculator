@@ -1,3 +1,3 @@
 window.GlobalConstants || (window.GlobalConstants = {});
 
-GlobalConstants.basePath = '/';
+GlobalConstants.basePath = '/flexcalculator/';
