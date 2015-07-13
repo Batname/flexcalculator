@@ -28847,8 +28847,8 @@
         var component = undefined;
   
         switch (this.props.path) {
-          case '/':
-          case 'music':
+          case '' + window.GlobalConstants.basePath:
+          case 'flexcalculator':
             component = _react2['default'].createElement(pages.Home);
             break;
         }
