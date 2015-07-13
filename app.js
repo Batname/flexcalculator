@@ -64,7 +64,7 @@
   
   var _fastclick2 = _interopRequireDefault(_fastclick);
   
-  var path = decodeURI(window.location.pathname);
+  var path = '' + window.GlobalConstants.basePath;
   
   function run() {
     var props = {
